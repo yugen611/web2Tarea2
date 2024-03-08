@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+}
+.principal
+{
+    background-color: aquamarine;
+   /*
+    width: 600px;
+    height: 600px;
+    */
+    display: flex; /*esto hace que las caja se ajusten a la pagina    flex-direction: initial;*/
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /*hace repetar el tamaño que es  dado por el row
+    .contenedor{
+    display: flex; /*su tamaño ya no es flexible*/
+}
+.caja-1{
+   
+    
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+}
+.caja-3{
+
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.caja{
+    background-color: chocolate;
+    width: 32%;
+    height: 1060px;
+    margin: 5px;
+}
+
+.caja1{
+    background-color: cornflowerblue;
+    margin: 5px;
+    height: 100px;
+}
+.caja2{
+    background-color: darkgreen;
+    margin: 5px; 
+    width: 30%;
+    
+}
+.caja-2{
+    background-color: darkslategrey;
+    margin: 5px;
+    width: 31%;
+    height: 125px;
+    
+
+}
